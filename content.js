@@ -29,7 +29,7 @@ let content = [
                 "They hired him as a manager.",
                 "She was hired after the interview."
             ],
-            image: ""
+            image: "images/hire.jpg"
     },
     
  {
@@ -55,7 +55,7 @@ let content = [
                 "They recruited five engineers.",
                 "The army is recruiting soldiers."
             ],
-            image: ""
+            image: "images/recruit.jpg"
         
     }
 ]
