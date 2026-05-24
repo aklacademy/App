@@ -8,9 +8,46 @@
 </head>
 <body>
 
+
     <div class="phone">
 
-        <div class="top-bar"> 
+        <div id="loginPage">
+
+        <div class="content">
+
+            <img src="images/logo.jpg" alt="app-logo" class="app-logo">
+
+            <h1 class="login-title">
+
+                AKL Academy
+
+            </h1>
+
+            <p class="login-tagline">
+
+                Master the Language,
+                Change your Destiny
+
+            </p>
+
+            <input type="text"
+            placeholder="Username"
+            class="login-input">
+
+            <input type="password"
+            placeholder="Password"
+            class="login-input">
+
+            <button class="nav-button" onclick="openHomePage">
+                Login
+            </button>
+        </div>
+    </div>
+
+
+        <div class="home-page" id="homePage"> 
+
+            <div class="top-bar"> 
 
             <div class="top-title">Learning App</div>
             <div class="top-subtitle">Build your word power daily</div>
@@ -24,8 +61,6 @@
         </div>
 
         </div>
-
-        <div class="home-page" id="homePage"> 
 
         <div class="content">
 
@@ -189,7 +224,7 @@ onclick="openStatisticsPage()">
             Previous
         </button>
 
-        <button class="next-btn" onclick="nextWord()">
+        <button class="next-btn" id="learnNextButton" onclick="nextWord()">
             Next
         </button>
 
